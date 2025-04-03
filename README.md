@@ -67,6 +67,6 @@ graph TD;
   CalcularPromedio --> |Libro se ha pedido > 100 veces?| EliminarLibro;
   EliminarLibro --> |Sí| RetirarDeRegistro;
   EliminarLibro --> |No| Fin;
-end
+
 
 ```
